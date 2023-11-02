@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb3f6fd195481e4aa36bb17c636a60b, type: 3}
+  m_Name: MyData
+  m_EditorClassIdentifier: 
+  doorList:
+  - isUnlocked: 1
+    isOpen: 0
+    doorAnimator: {fileID: 490492991061232497, guid: 6dfc0f995cc03af46a41ee309d162e8f, type: 3}
+    doorObject: {fileID: 6573820781769628758, guid: 6dfc0f995cc03af46a41ee309d162e8f, type: 3}
+  - isUnlocked: 0
+    isOpen: 0
+    doorAnimator: {fileID: 4695741842362212485, guid: ef1788bdbd5e55249a9044cbb73ec25a, type: 3}
+    doorObject: {fileID: 2080332893665867682, guid: ef1788bdbd5e55249a9044cbb73ec25a, type: 3}
+  - isUnlocked: 0
+    isOpen: 0
+    doorAnimator: {fileID: 8139486229025473096, guid: 769408f903b95a248aef395bb2fd546e, type: 3}
+    doorObject: {fileID: 3242926483677435247, guid: 769408f903b95a248aef395bb2fd546e, type: 3}
